@@ -74,7 +74,8 @@ module.exports = {
       { from: 'node_modules/autosize/dist/autosize.js', to: 'ext/autosize.js' },
       { from: 'node_modules/jsbarcode/dist/JsBarcode.all.min.js', to: 'ext/JsBarcode.all.min.js' },
       { from: 'node_modules/spectrum-colorpicker/spectrum.css', to: 'ext/spectrum.css'},
-      { from: 'node_modules/spectrum-colorpicker/spectrum.js', to: 'ext/spectrum.js' }
+      { from: 'node_modules/spectrum-colorpicker/spectrum.js', to: 'ext/spectrum.js' },
+      { from: 'src/iconfonts/\.(?!css$)', to: 'iconfonts/' }
     ])
   ]
 };
